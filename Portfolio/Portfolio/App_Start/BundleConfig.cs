@@ -20,11 +20,15 @@ namespace Portfolio
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/Library/bootstrap.js",
                       "~/Scripts/Library/respond.js",
-                      "~/Scripts/Screen/skrollr.js"));
+                      "~/Scripts/Screen/skrollr.js",
+                      "~/Scripts/Screen/multiElement.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/fixed.css",
+                      "~/Content/reset.css",
+                      "~/Content/style.css"));
         }
     }
 }

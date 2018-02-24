@@ -154,6 +154,9 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\fixed.css" />
+    <Content Include="Content\reset.css" />
+    <Content Include="Content\style.css" />
     <Content Include="Content\日付あり_１水平06時.JPG" />
     <Content Include="favicon.ico" />
     <Content Include="Controllers\fonts\glyphicons-halflings-regular.svg" />
@@ -176,6 +179,7 @@
     <Content Include="Scripts\Library\respond.min.js" />
     <Content Include="Scripts\Library\skrollr.js" />
     <Content Include="Scripts\Library\skrollr.min.js" />
+    <Content Include="Scripts\Screen\multiElement.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
