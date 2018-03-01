@@ -94,3 +94,4 @@ C:\Git\社内プロジェクト\会社説明会\Portfolio\Portfolio\Portfolio\bi
 C:\Git\社内プロジェクト\会社説明会\Portfolio\Portfolio\Portfolio\bin\ja\System.Web.WebPages.Razor.resources.dll
 C:\Git\社内プロジェクト\会社説明会\Portfolio\Portfolio\Portfolio\obj\Debug\Portfolio.dll
 C:\Git\社内プロジェクト\会社説明会\Portfolio\Portfolio\Portfolio\obj\Debug\Portfolio.pdb
+C:\Git\社内プロジェクト\会社説明会\Portfolio\Portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache

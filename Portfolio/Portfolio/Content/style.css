@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 #scroll{
 	top:0;
@@ -63,4 +63,12 @@ html, body {
 	font-size:300%;
 	position:relative;
 	top:40%;
+}
+
+#LogoImg {
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-image: url("../../../content/日付あり_１水平06時.JPG");
+    background-size: cover;
 }

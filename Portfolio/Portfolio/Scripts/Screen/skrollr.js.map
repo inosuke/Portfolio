@@ -1,1 +1,1 @@
-{"version":3,"file":"skrollr.js","sourceRoot":"","sources":["skrollr.ts"],"names":[],"mappings":"AACA,eAAe;AACf,8CAA8C;AAC9C,2CAA2C;AAC3C,gDAAgD;AAChD,SAAS;AACT,OAAO"}
+{"version":3,"file":"skrollr.js","sourceRoot":"","sources":["skrollr.ts"],"names":[],"mappings":"AACA,CAAC,CAAC;IACE,CAAC,CAAC,MAAM,CAAC,CAAC,MAAM,CAAC;QACb,IAAI,CAAC,GAAG,MAAM,CAAC,IAAI,CAAC,CAAC,SAAS,EAAE,CAAC;QACjC,CAAC,CAAC,SAAS,CAAC,CAAC,IAAI,CAAC,SAAS,GAAG,CAAC,CAAC,CAAC,CAAC,IAAI;IAC1C,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC"}
