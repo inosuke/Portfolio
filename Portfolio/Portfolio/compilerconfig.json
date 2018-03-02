@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Content/Common/Common.css",
+    "inputFile": "Content/Common/Common.scss"
+  },
+  {
+    "outputFile": "Content/PageStyleSheets/Landing.css",
+    "inputFile": "Content/PageStyleSheets/Landing.scss"
+  },
+  {
+    "outputFile": "Content/PageStyleSheets/Factory.css",
+    "inputFile": "Content/PageStyleSheets/Factory.scss"
+  }
+]

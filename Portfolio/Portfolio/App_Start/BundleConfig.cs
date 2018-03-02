@@ -29,6 +29,18 @@ namespace Portfolio
                       "~/Content/fixed.css",
                       "~/Content/reset.css",
                       "~/Content/style.css"));
+
+            bundles.Add(new StyleBundle("~/Content/Landing").Include(
+                      "~/Content/Common/Common.css",
+                      "~/Content/PageStyleSheets/Landing.css"));
+
+            bundles.Add(new ScriptBundle("~/Scripts/Landing").Include(
+                      "~/Scripts/Library/jquery-{version}.js",
+                      "~/Scripts/Screen/Landing.js"));
+
+            bundles.Add(new StyleBundle("~/Content/Factory").Include(
+                      "~/Content/Common/Common.css",
+                      "~/Content/PageStyleSheets/Factory.css"));
         }
     }
 }

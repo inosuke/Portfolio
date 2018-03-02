@@ -154,7 +154,29 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Common\Common.css">
+      <DependentUpon>Common.scss</DependentUpon>
+    </Content>
     <Content Include="Content\fixed.css" />
+    <Content Include="Content\Img\センサ.svg" />
+    <Content Include="Content\Img\工場アイコン.svg" />
+    <Content Include="Content\Img\工場ベルトコンベア.svg" />
+    <Content Include="Content\Img\工場生産機械-パイプ.svg" />
+    <Content Include="Content\Img\工場生産機械-本体.svg" />
+    <Content Include="Content\Img\工場生産機械.svg" />
+    <Content Include="Content\Img\工場生産部品.svg" />
+    <Content Include="Content\Img\工場用地面.svg" />
+    <Content Include="Content\Img\工場用壁背景.svg" />
+    <Content Include="Content\Img\通信中のスマフォアイコン%28センサ用%29.svg" />
+    <Content Include="Content\Img\通信中のスマフォアイコン%28雲用%29.svg" />
+    <Content Include="Content\Img\雲のアイコン素材.svg" />
+    <Content Include="Content\Img\雲用背景.svg" />
+    <Content Include="Content\PageStyleSheets\Factory.css">
+      <DependentUpon>Factory.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\PageStyleSheets\Landing.css">
+      <DependentUpon>Landing.scss</DependentUpon>
+    </Content>
     <Content Include="Content\reset.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\日付あり_１水平06時.JPG" />
@@ -162,6 +184,13 @@
     <Content Include="Controllers\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\PageStyleSheets\Landing.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="Content\Common\Common.scss" />
+    <Content Include="Content\PageStyleSheets\Factory.scss" />
     <None Include="Scripts\Library\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\Library\jquery-3.3.1.js" />
     <Content Include="Scripts\Library\jquery-3.3.1.min.js" />
@@ -195,6 +224,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Portfolio\Index.cshtml" />
+    <Content Include="Views\Portfolio\Factory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -213,6 +243,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\Screen\Landing.ts" />
     <TypeScriptCompile Include="Scripts\Screen\skrollr.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>

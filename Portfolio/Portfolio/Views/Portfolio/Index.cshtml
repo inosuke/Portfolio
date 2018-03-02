@@ -4,5 +4,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+@Styles.Render("~/Content/Landing")
+@Scripts.Render("~/Scripts/Landing")
 
+<main>
+    <div class="category-btn-area center">
+        <button id="factory-btn" class="factory-btn">
+            <img src="~/Content/Img/工場アイコン.svg" />
+        </button>
+    </div>
+</main>

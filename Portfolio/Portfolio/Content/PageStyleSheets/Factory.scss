@@ -1,0 +1,23 @@
+﻿
+// 工場壁紙
+.factory-wall-paper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Img/工場用壁背景.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.factory-ground{
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100vw;
+    height: 20vh;
+    background-image: url('../Img/工場用地面.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
