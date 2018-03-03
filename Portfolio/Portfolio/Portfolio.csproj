@@ -159,14 +159,23 @@
     </Content>
     <Content Include="Content\fixed.css" />
     <Content Include="Content\Img\センサ.svg" />
+    <Content Include="Content\Img\ベルトコンベア.svg" />
     <Content Include="Content\Img\工場アイコン.svg" />
     <Content Include="Content\Img\工場ベルトコンベア.svg" />
     <Content Include="Content\Img\工場生産機械-パイプ.svg" />
+    <Content Include="Content\Img\工場生産機械-本体-ポンプ.svg" />
+    <Content Include="Content\Img\工場生産機械-本体-上半分.svg" />
+    <Content Include="Content\Img\工場生産機械-本体-下半分.svg" />
+    <Content Include="Content\Img\工場生産機械-本体-歯車-大.svg" />
+    <Content Include="Content\Img\工場生産機械-本体-歯車-小.svg" />
+    <Content Include="Content\Img\工場生産機械-本体-歯車無し.svg" />
     <Content Include="Content\Img\工場生産機械-本体.svg" />
     <Content Include="Content\Img\工場生産機械.svg" />
     <Content Include="Content\Img\工場生産部品.svg" />
     <Content Include="Content\Img\工場用地面.svg" />
     <Content Include="Content\Img\工場用壁背景.svg" />
+    <Content Include="Content\Img\工場背景.svg" />
+    <Content Include="Content\Img\歯車.svg" />
     <Content Include="Content\Img\通信中のスマフォアイコン%28センサ用%29.svg" />
     <Content Include="Content\Img\通信中のスマフォアイコン%28雲用%29.svg" />
     <Content Include="Content\Img\雲のアイコン素材.svg" />
@@ -196,16 +205,11 @@
     <Content Include="Scripts\Library\jquery-3.3.1.min.js" />
     <Content Include="Scripts\Library\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\Library\jquery-3.3.1.slim.min.js" />
-    <Content Include="Scripts\Library\bootstrap.js" />
-    <Content Include="Scripts\Library\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Scripts\Library\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\Library\jquery-3.3.1.min.map" />
-    <Content Include="Scripts\Library\modernizr-2.6.2.js" />
-    <Content Include="Scripts\Library\respond.js" />
-    <Content Include="Scripts\Library\respond.min.js" />
     <Content Include="Scripts\Library\skrollr.js" />
     <Content Include="Scripts\Library\skrollr.min.js" />
     <Content Include="Scripts\Screen\multiElement.js" />

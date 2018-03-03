@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4121 907 124.578 99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #666;
+      }
+
+      .cls-2 {
+        fill: #ccc;
+      }
+    </style>
+  </defs>
+  <g id="グループ化_20" data-name="グループ化 20" transform="translate(3926 468)">
+    <rect id="長方形_25" data-name="長方形 25" class="cls-1" width="90" height="85" transform="translate(195 453)"/>
+    <path id="長方形_26" data-name="長方形 26" class="cls-2" d="M10,0H80A10,10,0,0,1,90,10V30a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(195 439)"/>
+    <path id="パス_4" data-name="パス 4" class="cls-2" d="M0,0H30.479V5H0Z" transform="translate(284 453)"/>
+    <path id="パス_5" data-name="パス 5" class="cls-2" d="M.555-.1l84.5.1V5l-84.5-.05Z" transform="translate(314.58 538.555) rotate(-90)"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3704.245 245 1024 900.932">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffcece;
+      }
+
+      .cls-2 {
+        fill: #4d4d4d;
+      }
+    </style>
+  </defs>
+  <g id="グループ化_65" data-name="グループ化 65" transform="translate(2885 -523)">
+    <path id="パス_11" data-name="パス 11" class="cls-1" d="M0,0H1024V768H0Z" transform="translate(819.245 768)"/>
+    <path id="パス_23" data-name="パス 23" class="cls-2" d="M0,0H1024V212.639H0Z" transform="translate(819.245 1456.293)"/>
+  </g>
+</svg>
