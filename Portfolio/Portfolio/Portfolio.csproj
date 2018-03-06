@@ -158,12 +158,14 @@
       <DependentUpon>Common.scss</DependentUpon>
     </Content>
     <Content Include="Content\fixed.css" />
+    <Content Include="Content\Img\Webブラウザ.svg" />
     <Content Include="Content\Img\センサ.svg" />
     <Content Include="Content\Img\ベルトコンベア.svg" />
     <Content Include="Content\Img\三連チェア.svg" />
     <Content Include="Content\Img\三連デスク.svg" />
     <Content Include="Content\Img\人-後ろ.svg" />
     <Content Include="Content\Img\人-正面.svg" />
+    <Content Include="Content\Img\吹き出し.svg" />
     <Content Include="Content\Img\工場アイコン.svg" />
     <Content Include="Content\Img\工場ベルトコンベア.svg" />
     <Content Include="Content\Img\工場生産機械-パイプ.svg" />
