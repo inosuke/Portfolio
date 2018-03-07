@@ -18,7 +18,7 @@
     <AssemblyName>Portfolio</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -157,6 +157,7 @@
       <DependentUpon>Common.scss</DependentUpon>
     </Content>
     <Content Include="Content\fixed.css" />
+    <Content Include="Content\Img\loader.gif" />
     <Content Include="Content\Img\Webブラウザ.svg" />
     <Content Include="Content\Img\センサ.svg" />
     <Content Include="Content\Img\ベルトコンベア.svg" />
@@ -165,6 +166,7 @@
     <Content Include="Content\Img\人-後ろ.svg" />
     <Content Include="Content\Img\人-正面.svg" />
     <Content Include="Content\Img\吹き出し.svg" />
+    <Content Include="Content\Img\factory-icon.png" />
     <Content Include="Content\Img\工場アイコン.svg" />
     <Content Include="Content\Img\工場ベルトコンベア.svg" />
     <Content Include="Content\Img\工場生産機械-パイプ.svg" />
@@ -250,6 +252,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\Screen\Factory.ts" />
     <TypeScriptCompile Include="Scripts\Screen\Landing.ts" />
     <TypeScriptCompile Include="Scripts\Screen\skrollr.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />

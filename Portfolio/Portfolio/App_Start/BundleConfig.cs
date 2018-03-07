@@ -29,6 +29,10 @@ namespace Portfolio
                       "~/Scripts/Library/jquery-{version}.js",
                       "~/Scripts/Screen/Landing.js"));
 
+            bundles.Add(new ScriptBundle("~/Scripts/Factory").Include(
+                      "~/Scripts/Library/jquery-{version}.js",
+                      "~/Scripts/Screen/Factory.js"));
+
             bundles.Add(new StyleBundle("~/Content/Factory").Include(
                       "~/Content/Common/Common.css",
                       "~/Content/PageStyleSheets/Factory.css"));
