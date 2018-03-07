@@ -1,0 +1,16 @@
+﻿################################################################################
+# この .gitignore ファイルは Microsoft(R) Visual Studio によって自動的に作成されました。
+################################################################################
+
+/Portfolio/.vs/Portfolio/v15/Server/sqlite3/storage.ide-wal
+/Portfolio/.vs/Portfolio/v15/Server/sqlite3/storage.ide-shm
+/Portfolio/.vs/Portfolio/v15/Server/sqlite3/storage.ide
+/Portfolio/.vs/Portfolio/v15/Server/sqlite3/db.lock
+/Portfolio/.vs/Portfolio/v15/Server/sqlite3
+/Portfolio/.vs/Portfolio/v15/.suo
+/Portfolio/.vs/Portfolio/v15
+/Portfolio/.vs/config/applicationhost.config
+/Portfolio/packages
+/Portfolio/Portfolio/bin
+/Portfolio/Portfolio/obj/Debug
+/Portfolio/Portfolio/Portfolio.csproj.user
