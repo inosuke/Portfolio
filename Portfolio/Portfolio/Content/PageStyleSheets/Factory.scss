@@ -297,6 +297,18 @@
     height: 40%;
     visibility: hidden;
 }
+.office-pc-browser-embedded {
+    position: absolute;
+    width: 17%;
+    left: 38.5%;
+    top: 25%;
+    height: 17%;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    opacity: 0.5;
+}
 .office-cloud-sensor-communication {
     position: absolute;
     right: 30%;
@@ -326,7 +338,7 @@
     transition: all ease 0.2s;
     -webkit-transform: scale(0.2);
     transform: scale(0.2);
-    opacity: 0;
+    opacity: 0.8;
 }
 .office-pc-communication {
     position: absolute;

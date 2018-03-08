@@ -158,6 +158,7 @@
     </Content>
     <Content Include="Content\fixed.css" />
     <Content Include="Content\Img\loader.gif" />
+    <Content Include="Content\Img\Webブラウザ-PC埋め込み用.svg" />
     <Content Include="Content\Img\Webブラウザ.svg" />
     <Content Include="Content\Img\センサ.svg" />
     <Content Include="Content\Img\ベルトコンベア.svg" />
