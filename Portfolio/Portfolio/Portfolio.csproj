@@ -159,6 +159,7 @@
     <Content Include="Content\fixed.css" />
     <Content Include="Content\Img\loader.gif" />
     <Content Include="Content\Img\Webブラウザ-PC埋め込み用.svg" />
+    <Content Include="Content\Img\Webブラウザ.png" />
     <Content Include="Content\Img\Webブラウザ.svg" />
     <Content Include="Content\Img\センサ.svg" />
     <Content Include="Content\Img\ベルトコンベア.svg" />
@@ -191,6 +192,9 @@
     <Content Include="Content\PageStyleSheets\Factory.css">
       <DependentUpon>Factory.scss</DependentUpon>
     </Content>
+    <Content Include="Content\PageStyleSheets\FactoryForiPad.css">
+      <DependentUpon>FactoryForiPad.scss</DependentUpon>
+    </Content>
     <Content Include="Content\PageStyleSheets\Landing.css">
       <DependentUpon>Landing.scss</DependentUpon>
     </Content>
@@ -208,6 +212,7 @@
     </None>
     <Content Include="Content\Common\Common.scss" />
     <Content Include="Content\PageStyleSheets\Factory.scss" />
+    <Content Include="Content\PageStyleSheets\FactoryForiPad.scss" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\Library\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\Library\jquery-3.3.1.js" />
@@ -235,6 +240,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Portfolio\Index.cshtml" />
     <Content Include="Views\Portfolio\Factory.cshtml" />
+    <Content Include="Views\Portfolio\FactoryForiPad.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
