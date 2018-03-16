@@ -10,5 +10,9 @@
   {
     "outputFile": "Content/PageStyleSheets/Factory.css",
     "inputFile": "Content/PageStyleSheets/Factory.scss"
+  },
+  {
+    "outputFile": "Content/PageStyleSheets/FactoryForiPad.css",
+    "inputFile": "Content/PageStyleSheets/FactoryForiPad.scss"
   }
 ]

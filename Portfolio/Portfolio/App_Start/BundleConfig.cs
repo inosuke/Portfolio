@@ -36,6 +36,11 @@ namespace Portfolio
             bundles.Add(new StyleBundle("~/Content/Factory").Include(
                       "~/Content/Common/Common.css",
                       "~/Content/PageStyleSheets/Factory.css"));
+
+            bundles.Add(new StyleBundle("~/Content/FactoryForiPad").Include(
+                      "~/Content/Common/Common.css",
+                      "~/Content/PageStyleSheets/FactoryForiPad.css"));
+
         }
     }
 }

@@ -16,7 +16,40 @@ namespace Portfolio.Controllers
 
         public ActionResult Factory()
         {
-            return View();
+            // ＰＣ／スマホで呼び出しHTMLの分岐
+            var userAgent = Request.UserAgent;
+            string viewName = "";
+            if (IsSmapho(userAgent))
+            {
+                viewName = "FactoryForiPad";
+            }
+            else
+            {
+                viewName = "Factory";
+            }
+            return View(viewName);
+        }
+
+        private static bool IsSmapho(string userAgent)
+        {
+            var isSmapho = false;
+            if (userAgent.IndexOf("iPhone") > -1)
+            {
+                isSmapho = true;
+            }
+            else if (userAgent.IndexOf("iPad") > -1)
+            {
+                isSmapho = true;
+            }
+            else if (userAgent.IndexOf("iPod") > -1)
+            {
+                isSmapho = true;
+            }
+            else if (userAgent.IndexOf("Android") > -1)
+            {
+                isSmapho = true;
+            }
+            return isSmapho;
         }
     }
 }
